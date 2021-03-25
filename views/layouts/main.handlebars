@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
+  <title>foodBlog</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div class="nav-wrapper orange lighten-2 ">
+        <a href="/" class="brand-logo">foodBlog</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="/">HOME</a>
+          </li>
+          <li>
+            <a href="/dashboard">DASHBOARD</a>
+          </li>
+          <li>
+            {{#if loggedIn}}
+            <button id="logout" class="waves-effect waves-red lighten-2 btn-flat">LOGOUT</button>
+            {{else}}
+            <a href="/login">LOGIN</a>
+            {{/if}}
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/">HOME</a></li>
+        <li><a href="/dashboard">DASHBOARD</a></li>
+        <li>
+            {{#if loggedIn}}
+                <button id="mobile-logout" class="waves-effect waves-red lighten-2 btn-flat">LOGOUT</button>
+            {{else}}
+                    <a href="/login">LOGIN</a>
+            {{/if}}
+        </li>
+    </ul>
+
+    <main>
+      {{{ body }}}
+    </main>
+    <footer class="center-align">
+      &#169; 2021 foodBlog
+    </footer>
+  </div>
+  
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/javascript/materialize-init.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<article class="post">
+  <div class="title">
+    <h3><a href="/post/{{id}}">{{title}}</a></h3>
+  </div>
+
+  {{!-- Start IMG portion --}}
+  <div>
+      <img src="/assets/images/img{{id}}.jpg" width="300" height="300" alt="" /> 
+  </div>
+  {{!-- End IMG portion --}}
+
+  <div class="meta">
+    <b>{{vote_count}}</b> {{format_plural "point" vote_count}} by <b>{{user.username}}</b> on {{format_date created_at}}
+    |
+    <span>{{comments.length}} {{format_plural "comment" comments.length}}</span>
+  </div>
+  <p>{{post_content}}</p>
+</article>
