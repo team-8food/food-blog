@@ -1,4 +1,4 @@
-const { Vote } = require('../models');
+const { Vote } = require('../../foodblog/foodBlog/models');
 
 const votedata = [
   {

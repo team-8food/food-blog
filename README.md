@@ -29,7 +29,7 @@ npm install connect-session-sequelize
 
 ### Run MySQL
 
-mysql -u USERNAME - p
+mysql -u USERNAME - p 
 
 mysyql> source schema.sql; 
 
