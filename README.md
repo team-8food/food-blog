@@ -105,6 +105,10 @@ https://www.npmjs.com/package/connect-session-sequelize
 
 https://materializecss.com/ 
 
+## Links to Deployed Application
+Github repository —> https://github.com/team-8food/food-blog
+Github/Heroku Page —>
+
 ## Contacts
 
 Group project members:
