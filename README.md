@@ -1,7 +1,19 @@
-# techBlog
+## Project Overview
 
-## Description
-The goal of this project is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+Description: A user-friendly site where user can write different food topics and create amazing contents by publishing and adding comments to other posts as well.
+
+## Uer Story
+•”As a blogger, I want a user-friendly site, where I can create contents and publish it”
+
+•“As a blogger, I want to authenticate myself so that I can see my dashboard and my credentials are saved.”
+
+•“As a blogger, I want to to be able to see previous and existing blogs .”
+
+•“As a blogger, I will be able to provide comments to other author's blogs."
+
+## Food Blog Flowchart
+
+![Alt text](/public/assets/images/foodblogUX.jpg?raw=true "Dish a day Food Blog site")
 
 ## Installation
 
@@ -51,9 +63,9 @@ DB_PW='' <- Enter MySQL password
 
 ## Links
 
-Heroku link: https://tanb-tech-blog.herokuapp.com/
+Heroku link: 
 
-Repo link: https://github.com/bctan87/techBlog
+Repo link: https://github.com/team-8food/food-blog
 
 ## Credits 
 
@@ -92,3 +104,12 @@ https://www.npmjs.com/package/express-session
 https://www.npmjs.com/package/connect-session-sequelize
 
 https://materializecss.com/ 
+
+## Contacts
+
+Group project members:
+
+Ben Tan | bctan87@gmail.com
+Samuel Saldivar | SamuelSaldivar11@gmail.com
+Douglas Snoddy Jr | douglassnoddyjr@gmail.com
+Cherrie Awang | caflores31@gmail.com
