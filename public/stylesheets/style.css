@@ -1,0 +1,18 @@
+nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.delete-post-btn {
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    letter-spacing: .5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+}
