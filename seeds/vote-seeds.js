@@ -20,6 +20,10 @@ const votedata = [
   {
     user_id: 5,
     post_id: 5
+  },
+  {
+    user_id: 6,
+    post_id: 6
   }
 ];
 

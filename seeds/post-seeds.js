@@ -2,34 +2,40 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Recipe 1',
+    title: 'Eggs',
     img: 1,
-    post_content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    post_content: 'High quality protein and free range',
     user_id: 1
   },
   {
-    title: 'Recipe 2',
+    title: 'Honey',
     img: 2,
-    post_content: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    post_content: 'Comes straight from nature',
     user_id: 2
   },
   {
-    title: 'Recipe 3',
+    title: 'Grapes',
     img: 3,
-    post_content: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    post_content: 'High in antioxidants and vitamins',
     user_id: 3
   },
   {
-    title: 'Recipe 4',
+    title: 'Cinnamon',
     img: 4,
-    post_content: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    post_content: 'A remedy and a spice',
     user_id: 4
   },
   {
-    title: 'Recipe 5',
+    title: 'Sweet potatoe',
     img: 5,
-    post_content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+    post_content: 'Contain high amounts of vitamins A, C, and E',
     user_id: 5
+  },
+  {
+    title: 'Tilapia fillets',
+    img: 6,
+    post_content: 'Great source of proteins, vitamins and minerals',
+    user_id: 6
   }
 ];
 
