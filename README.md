@@ -55,7 +55,7 @@ npm run seed
 
 ### Modify .env file
 
-DB_NAME='tech_blog_db'
+DB_NAME='food_blog_db'
 
 DB_USER='' <- Enter MySQL username
 
