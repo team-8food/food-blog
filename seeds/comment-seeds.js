@@ -2,7 +2,7 @@ const { Comment } = require('../models');
 
 const commentdata = [
   {
-    comment_text: 'High quality protein and free range',
+    comment_text: 'This dish is versatile and convenient with a sauce of your choice to top it off',
     user_id: 1,
     post_id: 1
   },
@@ -27,7 +27,7 @@ const commentdata = [
     post_id: 5
   },
   {
-    comment_text: 'Great source of proteins, vitamins and minerals',
+    comment_text: 'Never have to order takeout again',
     user_id: 6,
     post_id: 6
   },

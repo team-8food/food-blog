@@ -2,37 +2,37 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Eggs',
+    title: 'Spaghetti',
     img: 1,
-    post_content: 'High quality protein and free range',
+    post_content: 'Italian cuisine that pairs with wine, protein and any choice of sauce',
     user_id: 1
   },
   {
-    title: 'Honey',
+    title: 'Grits and Salmon',
     img: 2,
-    post_content: 'Comes straight from nature',
+    post_content: 'Dish filled with plenty of protein and also savory',
     user_id: 2
   },
   {
-    title: 'Grapes',
+    title: 'Crunch Wrap Supreme',
     img: 3,
-    post_content: 'High in antioxidants and vitamins',
+    post_content: 'Made right out of your own home and taste better compared to fast food',
     user_id: 3
   },
   {
-    title: 'Cinnamon',
+    title: 'Poke Bowl',
     img: 4,
-    post_content: 'A remedy and a spice',
+    post_content: 'Loaded with good fats and minerals. A balanced and easy meal',
     user_id: 4
   },
   {
-    title: 'Sweet potatoe',
+    title: 'Chicken noodle soup',
     img: 5,
-    post_content: 'Contain high amounts of vitamins A, C, and E',
+    post_content: 'Great choice for a warm comforting meal',
     user_id: 5
   },
   {
-    title: 'Tilapia fillets',
+    title: 'Egg fried rice',
     img: 6,
     post_content: 'Great source of proteins, vitamins and minerals',
     user_id: 6
