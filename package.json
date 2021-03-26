@@ -1,7 +1,7 @@
 {
   "name": "techblog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Description: \u000bA user-friendly site where user can write different food topics and create amazing contents by publishing and adding comments to other posts as well.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,6 +29,6 @@
     "handlebars": "^4.7.7",
     "materialize-css": "^1.0.0-rc.2",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.5.0"
+    "sequelize": "^6.6.2"
   }
 }
