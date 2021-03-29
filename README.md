@@ -108,8 +108,10 @@ https://materializecss.com/
 https://devcenter.heroku.com/articles/jawsdb
 
 ## Links to Deployed Application
+
 Github repository —> https://github.com/team-8food/food-blog
-Github/Heroku Page —>
+
+Github/Heroku Page —> https://dishaday.herokuapp.com/
 
 ## Contacts
 
