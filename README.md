@@ -105,6 +105,8 @@ https://www.npmjs.com/package/connect-session-sequelize
 
 https://materializecss.com/ 
 
+https://devcenter.heroku.com/articles/jawsdb
+
 ## Links to Deployed Application
 Github repository —> https://github.com/team-8food/food-blog
 Github/Heroku Page —>
