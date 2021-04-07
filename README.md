@@ -63,7 +63,7 @@ DB_PW='' <- Enter MySQL password
 
 ## Links
 
-Heroku link: 
+Heroku link: https://dishaday.herokuapp.com/
 
 Repo link: https://github.com/team-8food/food-blog
 
